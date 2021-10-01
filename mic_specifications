@@ -1,0 +1,14 @@
+Specifications: 
+Capsule type: Precision 6 mm electret condenser 
+Polar Response: True Omnidirectional 
+Frequency response: 18-20,000 Hz (Calibrated) 
+Impedance: 200 ohms 
+Sensitivity at 1 kHz into 1K ohm: 10 mV/Pa (-40dBV, re. 0dB = 1V/Pa) 
+Transfer Factor: 10 mV/Pa (http://www.sengpielaudio.com/calculator-transferfactor.htm)
+Self Noise: 24 dB
+Dynamic range: 103 dB
+Maximum SPL for 1% THD @ 1000 Hz: 127 dB SPL
+S/N ratio: 70 dB (A-weighted, varies depending on host device) 
+Connector: Gold-plated 3.5 mm TRRS
+
+Sensitivity = 20 × log (transfer factor) 
