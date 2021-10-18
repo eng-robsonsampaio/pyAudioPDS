@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 from scipy.fftpack import fft
+import sys
+
 
 from tkinter import TclError
 
@@ -75,8 +77,8 @@ while True:
     # y_fft = fft(data_int)
     # line_fft.set_ydata(data_np)
     # line_fft.set_ydata(np.abs(y_fft[0:CHUNK]) * 2 / (256 * CHUNK))
-
     #
+
     ref = 1
     dbF = 20 * np.log10(abs(np.mean(data_np)) / ref)
     print(dbF)

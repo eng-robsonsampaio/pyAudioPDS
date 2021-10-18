@@ -18,13 +18,13 @@ def rms(pressure_level):
     of the given pressure by a specific period of time
     pressure_level: pressure level given by the microphone in Pa
     '''
-
     return np.sqrt((abs(pressure_level)**2.0).mean())
 
 def frequency_weighting():
     '''
     
-    '''
+    '''    
+    pass
 
 def pascal_in_db(pressure_ref):
     return 20 * log10(1 / pressure_ref)   
